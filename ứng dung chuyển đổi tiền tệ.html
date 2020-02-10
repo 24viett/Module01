@@ -1,0 +1,61 @@
+<html>
+
+<head>
+    <style>
+        .btn-submit {
+            background-color: darkblue;
+            color: white;
+
+        }
+
+        #submit-btn {
+            background-color: darkblue;
+            color: white;
+
+        }
+    </style>
+</head>
+
+<body>
+    <form>
+        <table>
+            <tr>
+                <th><label> Amount</label></th>
+                <th><label for="">From Currency</label></th>
+                <th>
+                    <label>To Currency</label>
+                </th>
+                <th></th>
+            </tr>
+            <tr>
+                <td><input type="number" /></td>
+                <td>
+                    <select name="" id="">
+                        <option value="1">viet nam</option>
+                        <option value="2">lao</option>
+                        <option value="3">campuchia</option>
+                    </select>
+                </td>
+                <td>
+                    <select>
+                        <option value="1">mỹ</option>
+                        <option value="2">pháp</option>
+                        <option value="3">nhât</option>
+                    </select>
+
+                </td>
+                <td>
+                    <button id='submit-btn'>Convert</button>
+                </td>
+            </tr>
+        </table>
+    </form>
+    <script>
+        var a = prompt(a);
+        var i = a * 0.000043;
+        document.write("Resuil:  " + i);
+        var button = document.getElementById("submit-btn").innerHTML
+        console.log(button)    </script>
+</body>
+
+</html>
