@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let number = 25000;
+        let plus = +prompt('nhập số phút');
+        let s;
+        if(plus<50){
+            document.write('cước bằng'+(s=number+plus*600));
+        }else if(plus<150){
+            document.write('cước bằng' +(s=number+plus*400));
+        }else if(plus>200){
+            document.write('cước bằng '+(s=number+plus*200));
+        }
+    </script>
+</body>
+</html>
