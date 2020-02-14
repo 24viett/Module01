@@ -1,0 +1,26 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+           let  a;
+        let i;
+        
+        for( i=0;i<=20;i++){
+             a = Math.floor((1/Math.sqrt(5))*(Math.pow(((1+Math.sqrt(5))/2),i)-Math.pow(((1-Math.sqrt(5))/2),i)))
+             if (a%5==0) {
+                 document.write('số đầu tiên chia hết cho 5 là    '+ a);
+                
+             }
+             break;
+             document.write(a+"<br>");
+        }
+
+    </script>
+</body>
+</html>
